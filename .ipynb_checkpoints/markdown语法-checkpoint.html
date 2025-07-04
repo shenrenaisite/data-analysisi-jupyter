@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+      <html lang="zh-CN">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="https://csdnimg.cn/release/blogv2/dist/pc/css/detail_enter-2fe393ff58.min.css">
+        <link rel="stylesheet" type="text/css" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/kdoc_html_views-1a98987dfd.css">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/ck_htmledit_views-704d5b9767.css">
+        <style>
+          body {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+          }
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+          pre {
+            background-color: #e4dfdf;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+          }
+          code {
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+          }
+          blockquote {
+            background: #f9f9f9;
+            border-left: 10px solid #ccc;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+          }
+          table {
+            border-collapse: collapse;
+            width: 100%;
+          }
+          th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+          }
+          th {
+            background-color: #f2f2f2;
+          }
+        </style>
+      </head>
+      <body>
+          <div class="blog-content-box">
+            <div id="article_content" class="article_content clearfix">
+              <div id="content_views" class="htmledit_views">
+                
+                <html><head></head><body>
+    <div id="blogHuaweiyunAdvert" class=""></div>
+    <article class="baidu_pl">
+        <div id="article_content" class="article_content clearfix">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/kdoc_html_views-1a98987dfd.css">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/ck_htmledit_views-01addd087f.css">
+                <div id="content_views" class="markdown_views prism-atom-one-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <path stroke-linecap="round" d="M5,0 0,2.5 5,5z" id="raphael-marker-block" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                    </svg>
+                    <p></p> 
+<div class="toc"> 
+ <h4>手把手教会你使用Markdown【从入门到精通一篇就够了】</h4> 
+ <ul><li><a href="#_4" rel="nofollow">前言</a></li><li><a href="#Markdown_11" rel="nofollow">一、Markdown是什么</a></li><li><a href="#Markdown_26" rel="nofollow">二、Markdown优点</a></li><li><a href="#Markdown_37" rel="nofollow">三、Markdown的基本语法</a></li><li><ul><li><a href="#31__38" rel="nofollow">3.1 标题</a></li><li><a href="#32__55" rel="nofollow">3.2 字体</a></li><li><a href="#33__70" rel="nofollow">3.3 换行</a></li><li><a href="#34__75" rel="nofollow">3.4 引用</a></li><li><a href="#35__96" rel="nofollow">3.5 链接</a></li><li><a href="#36__111" rel="nofollow">3.6 图片</a></li><li><a href="#37__135" rel="nofollow">3.7 列表</a></li><li><a href="#38__180" rel="nofollow">3.8 分割线</a></li><li><a href="#39__200" rel="nofollow">3.9 删除线</a></li><li><a href="#310__209" rel="nofollow">3.10 下划线</a></li><li><a href="#311__218" rel="nofollow">3.11 代码块</a></li><li><a href="#312__259" rel="nofollow">3.12 表格</a></li><li><a href="#313__281" rel="nofollow">3.13 脚注</a></li><li><a href="#314__296" rel="nofollow">3.14 特殊符号</a></li></ul> 
+  </li><li><a href="#Markdown_315" rel="nofollow">四、Markdown的高级用法</a></li><li><ul><li><a href="#41__316" rel="nofollow">4.1 个人看法</a></li><li><a href="#42__318" rel="nofollow">4.2 制作待办事项</a></li><li><a href="#43__335" rel="nofollow">4.3 书写公式</a></li><li><a href="#44__345" rel="nofollow">4.4 绘制流程图</a></li><li><a href="#45__361" rel="nofollow">4.5 绘制序列图</a></li><li><a href="#46__372" rel="nofollow">4.6 绘制甘特图</a></li><li><a href="#47_Html_397" rel="nofollow">4.7 Html</a></li></ul> 
+  </li><li><a href="#Markdown_442" rel="nofollow">五、Markdown工具</a></li><li><a href="#_448" rel="nofollow">六、总结</a></li></ul> 
+</div> 
+<p></p> 
+<hr> 
+<h2><a id="_4"></a>前言</h2> 
+<p>大家好，我是卷不动的小白，如名我可能和大部分人一样是个什么都要学习的小白，当自己潜下心来要记笔记写博客的时候接触到了Markdown语法。Markdown 是一种轻量级标记语言，通俗的说你记笔记写博客的时候不用管排版如何，只要将自己的内容写上去，Markdown语法就可以给你搞定一切。</p> 
+<hr> 
+<h2><a id="Markdown_11"></a>一、Markdown是什么</h2> 
+<p><img src="http://apis.todo6.com/app/operate/csdn/proxy?url=https%3A%2F%2Fi-blog.csdnimg.cn%2Fblog_migrate%2F8a5b4f43859467ab8ab6009b1e74b67e.png" alt="在这里插入图片描述"></p> 
+<p><code>Markdown</code> 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。<br> <code>Markdown</code> 允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的HTML文档。<br> <code>Markdown</code> 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。<br> <code>Markdown</code> 编写的文档后缀为 .md, .markdown。<br> 我个人认为<code>Markdown</code>是现在现在是互联网上最流行的写作语言！！！许多网站平台的文章、博客、论文都是基于它写的！！！</p> 
+<blockquote> 
+ <p>例如：<br> 国外的GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge等；<br> 国内的CSDN、简书、掘金、博客园、知乎等。</p> 
+</blockquote> 
+<p>推荐一款 Markdown 编辑器<strong>Typora</strong>（下载链接我放到文末）。这款软件足够轻量级，同时功能做到了尽可能的简单。至于Web编辑器必然是最好的CSDN哈哈哈。</p> 
+<hr> 
+<h2><a id="Markdown_26"></a>二、Markdown优点</h2> 
+<p>好多人看到Markdown的标签是【轻量级】【标记】【语言】就直接放弃，想着自己学习了非常多的语言，为了记个笔记写个博客还要再学习一门语言吗？实则不然，Markdown的语言非常非常简单，如果想学，10分钟你完全可以学完90%的常用的语法，而且你从此摆脱排版的折磨，属实是强迫症党的福利了。它的优点不仅限于此：</p> 
+<ul><li>纯文本编辑，只要是支持Markdown编辑的都能获得同样的结果，摆脱排版苦恼</li><li>学习成本低，常用的语法很少，简单易学快速上手</li><li>支持跨平台同步数据</li><li>支持插入图片、视频等</li><li>随时修改，不必担心word等工具出现排版错误</li></ul> 
+<p>废话不多说，进入干货阶段</p> 
+<hr> 
+<h2><a id="Markdown_37"></a>三、Markdown的基本语法</h2> 
+<h3><a id="31__38"></a>3.1 标题</h3> 
+<p>使用#号标记，可以表示1-6级标题， 随#的个数递增，一级标题字号最大，六级标题字号最小。<br> 代码如下：</p> 
+<pre><code class="prism language-xml"># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre> 
+<p>效果如下：<br> <img src="http://apis.todo6.com/app/operate/csdn/proxy?url=https%3A%2F%2Fi-blog.csdnimg.cn%2Fblog_migrate%2F21ac9e1f7ec824078c69480be427bb78.png" alt="在这里插入图片描述"></p> 
+<blockquote> 
+ <p>注意：</p> 
+ <ul><li>最后一个<code>#</code>字符与标题中间留一个空格</li><li>标题应该置于行首，如果放入表格中可能无法正确解析</li></ul> 
+</blockquote> 
+<h3><a id="32__55"></a>3.2 字体</h3> 
+<p>星号与下划线都可以，单是斜体，双是粗体，三是粗斜体</p> 
+<table><thead><tr><th align="center">代码</th><th align="center">效果</th></tr></thead><tbody><tr><td align="center"><code>*这是斜体*</code></td><td align="center"><em>这是斜体</em></td></tr><tr><td align="center"><code>_这是斜体_</code></td><td align="center"><em>这是斜体</em></td></tr><tr><td align="center"><code>**这是粗体**</code></td><td align="center"><strong>这是粗体</strong></td></tr><tr><td align="center"><code>__这是粗体__</code></td><td align="center"><strong>这是粗体</strong></td></tr><tr><td align="center"><code>***这是粗斜体***</code></td><td align="center"><em><strong>这是粗斜体</strong></em></td></tr><tr><td align="center"><code>___这是粗斜体___</code></td><td align="center"><em><strong>这是粗斜体</strong></em></td></tr></tbody></table> 
+<blockquote> 
+ <p>快捷键：<br> 加粗Ctrl+B<br> 斜体Ctrl+I</p> 
+</blockquote> 
+<h3><a id="33__70"></a>3.3 换行</h3> 
+<p>Markdown换行的方式有很多种:</p> 
+<ul><li>直接在一句话后敲两个空格</li><li>两句话之间加一个空行</li><li>如果你在编辑的时候，想让一行文字在显示的时候换行，就在中间加<code>&lt;br/&gt;</code></li></ul> 
+<h3><a id="34__75"></a>3.4 引用</h3> 
+<p>Markdown 中引用通过符号 <code>&gt;</code> 来实现。<code>&gt;</code> 符号后的空格，可有可无。<br> 在引用的区块内，允许换行存在，换行并不会终止引用的区块。如果要结束引用，需要一行空白行，来结束引用的区块。<br> 代码：</p> 
+<pre><code>&gt;这是一个引用
+</code></pre> 
+<p>效果</p> 
+<blockquote> 
+ <p>这是一个引用<br> 此外，引用还可以嵌套使用：<br> 代码：</p> 
+</blockquote> 
+<pre><code>&gt;这是一个引用：
+&gt;&gt;这是一个引用的引用
+&gt;&gt;&gt;这是一个引用的引用的引用
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <p>这是一个引用：</p> 
+ <blockquote> 
+  <p>这是一个引用的引用</p> 
+  <blockquote> 
+   <p>这是一个引用的引用的引用</p> 
+  </blockquote> 
+ </blockquote> 
+</blockquote> 
+<h3><a id="35__96"></a>3.5 链接</h3> 
+<p>Markdown中插入链接的使用方式是：<br> 代码：</p> 
+<pre><code>[链接名称](链接地址)
+&lt;链接地址&gt;
+即是：
+[这是小白的主页](https://blog.csdn.net/qq_40818172?type=lately)
+或者
+&lt;https://blog.csdn.net/qq_40818172?type=lately&gt;
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <p><a href="https://blog.csdn.net/qq_40818172?type=lately">这是小白的主页</a><br> <a href="https://blog.csdn.net/qq_40818172?type=lately">https://blog.csdn.net/qq_40818172?type=lately</a></p> 
+</blockquote> 
+<h3><a id="36__111"></a>3.6 图片</h3> 
+<p>Markdown中插入图片的使用方式是：<br> 代码：</p> 
+<pre><code>![图片描述，可写可不写，但是中括号要有](图片地址，本地链接或者URL地址。)
+比如我此文章的图片：
+![卷不动的小白](https://i-blog.csdnimg.cn/blog_migrate/ec1c9a9c57e4d6494b5b36554f7af692.png)
+)
+</code></pre> 
+<p>效果：<br> <img src="http://apis.todo6.com/app/operate/csdn/proxy?url=https%3A%2F%2Fi-blog.csdnimg.cn%2Fblog_migrate%2Fec1c9a9c57e4d6494b5b36554f7af692.png" alt="卷不动的小白"><br> 也可以<code>修改位置和图片大小</code>：<br> 代码：</p> 
+<pre><code>![图片描述，可写可不写，但是中括号要有](图片地址，本地链接或者URL地址#pic_center空格=长x宽)
+比如我此文章的图片：
+![卷不动的小白](https://i-blog.csdnimg.cn/blog_migrate/ec1c9a9c57e4d6494b5b36554f7af692.png#pic_center =60x60)
+)
+</code></pre> 
+<p>效果：<br> <img src="http://apis.todo6.com/app/operate/csdn/proxy?url=https%3A%2F%2Fi-blog.csdnimg.cn%2Fblog_migrate%2Fec1c9a9c57e4d6494b5b36554f7af692.png%23pic_center" alt="卷不动的小白" width="500" height="200"><br> <code>注意：等号前有空格，是x不是*</code></p> 
+<blockquote> 
+ <p>博主自己经常Ctrl+v粘贴图片更为便捷</p> 
+</blockquote> 
+<h3><a id="37__135"></a>3.7 列表</h3> 
+<p>列表分为有序列表和无序列表</p> 
+<ul><li>无序列表，使用<code>*</code>、<code>+</code>、<code>-</code>，再加一个空格作为列表的标记</li><li>有序列表，使用数字并加上<code>.</code>号，再加一个空格作为列表的标记<br> 代码：</li></ul> 
+<pre><code>* 无序列表 1
++ 无序列表 2
+- 无序列表 3
+
+1. 有序列表 1
+2. 有序列表 2
+3. 有序列表 3
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <ul><li>无序列表 1</li></ul> 
+ <ul><li>无序列表 2</li></ul> 
+ <ul><li>无序列表 3</li></ul> 
+ <ol><li>有序列表 1</li><li>有序列表 2</li><li>有序列表 3</li></ol> 
+</blockquote> 
+<p>如果想要控制列表的层级，则需要在列表符号前使用<code>Tab</code><br> 代码：</p> 
+<pre><code>+ 无序列表 1
++ 无序列表 2
+	+ 无序列表 2.1
+	+ 无序列表 2.2
+
+1. 有序列表 1
+	1.1 有序列表 1.1
+2. 有序列表 2
+	2.1 有序列表2.1
+</code></pre> 
+<p>效果：</p> 
+<ul><li>无序列表 1</li><li>无序列表 2 
+  <ul><li>无序列表 2.1</li><li>无序列表 2.2</li></ul> </li></ul> 
+<ol><li>有序列表 1 
+  <ol><li>有序列表 1.1</li></ol> </li><li>有序列表 2 
+  <ol><li>有序列表2.1</li></ol> </li></ol> 
+<h3><a id="38__180"></a>3.8 分割线</h3> 
+<p>Markdown中给出了多种分割线的样式，我们可以使用分割线让文章结构更加的清晰。<br> 分割线的使用，可以在一行中用三个<code>-</code>or<code>*</code>来建立一个分割线，但是注意：在分割线的上面空一行！！！</p> 
+<p>代码：</p> 
+<pre><code>分割线：
+
+---
+***
+- - -
+* * *
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <hr> 
+ <hr> 
+ <hr> 
+ <hr> 
+ <p>注意：写分割线前，要空一行之后写，否则会导致前一行字体放大。</p> 
+</blockquote> 
+<h3><a id="39__200"></a>3.9 删除线</h3> 
+<p>删除线的的使用，可以在要添加删除线的文字前后添加两个<code>~</code><br> 代码：</p> 
+<pre><code>~~这是要被删除的文字~~
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <p><s>这是要被删除的文字</s></p> 
+</blockquote> 
+<h3><a id="310__209"></a>3.10 下划线</h3> 
+<p>下划线的使用和html中类似，在需要添加下划线的文字首尾添加<code>&lt;u&gt;文本&lt;/u&gt;</code><br> 代码：</p> 
+<pre><code>&lt;u&gt;这行文字已被添加下划线&lt;/u&gt;
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <p><u>这行文字已被添加下划线</u></p> 
+</blockquote> 
+<h3><a id="311__218"></a>3.11 代码块</h3> 
+<p>Markdown中代码块有两种：<br> 如果在一行内需要引用代码，只需要用反引号`引起来就好了。<br> 代码：</p> 
+<pre><code>`Hello` World.
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <p><code>Hello</code> World.</p> 
+</blockquote> 
+<p>如果是在一个块内需要引用代码，则在需要引用的代码块的前一行和后一行使用三个反引号，同时在前一个反引号后写入代码的语言。<br> 代码：<br> <img src="http://apis.todo6.com/app/operate/csdn/proxy?url=https%3A%2F%2Fi-blog.csdnimg.cn%2Fblog_migrate%2Fb35dfa9609fc00d8a35e44d98e3b7a81.png" alt="在这里插入图片描述"><br> 效果：</p> 
+<pre><code class="prism language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{<!-- --></span>
+   <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"HelloWorld"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> 
+<p>支持以下语言：</p> 
+<pre><code>bash
+c，clojure，cpp，cs，css
+dart，dockerfile, diff
+erlang
+go，gradle，groovy
+haskell
+java，javascript，json，julia
+kotlin
+lisp，lua
+makefile，markdown，matlab
+objectivec
+perl，php，python
+r，ruby，rust
+scala，shell，sql，swift
+tex，typescript
+verilog，vhdl
+xml
+yaml
+</code></pre> 
+<h3><a id="312__259"></a>3.12 表格</h3> 
+<p>表格使用<code>|</code>来分割不同的单元格，使用<code>-</code>来分隔表头和其他行</p> 
+<ul><li><code>:-</code>：将表头及单元格内容左对齐</li><li><code>-:</code>：将表头及单元格内容右对齐</li><li><code>:-:</code>：将表头及单元格内容居中</li></ul> 
+<p>代码：</p> 
+<pre><code>| 项目        | 价格   |  数量  |
+| --------   | -----:  | :----:  |
+| 计算机     | \$1600 |   5     |
+| 手机        |   \$12   |   12   |
+| 管线        |    \$1    |  234  |
+</code></pre> 
+<p>效果：</p> 
+<table><thead><tr><th>项目</th><th align="left">价格</th><th align="center">数量</th></tr></thead><tbody><tr><td>计算机</td><td align="left">$1600</td><td align="center">5</td></tr><tr><td>手机</td><td align="left">$12</td><td align="center">12</td></tr><tr><td>管线</td><td align="left">$1</td><td align="center">234</td></tr></tbody></table> 
+<h3><a id="313__281"></a>3.13 脚注</h3> 
+<p>脚注是对文本的备注，我们时长在论文中看到脚注，在Markdown中的使用方法<br> 代码：</p> 
+<pre><code>使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2], 你可以使用 Typora[^T] 编辑器进行书写。
+[^1]:Markdown是一种纯文本标记语言
+[^2]:HyperText Markup Language 超文本标记语言
+[^T]:NEW WAY TO READ &amp; WRITE MARKDOWN.
+</code></pre> 
+<p>效果：<br> 使用 Markdown<sup class="footnote-ref"><a href="#fn1" rel="nofollow" id="fnref1">1</a></sup>可以效率的书写文档, 直接转换成 HTML<sup class="footnote-ref"><a href="#fn2" rel="nofollow" id="fnref2">2</a></sup>,</p> 
+<blockquote> 
+ <p>注意：脚注自动被搬运到最后面，请到文章末尾查看，并且脚注后方的链接可以直接跳转回到加注的地方。</p> 
+</blockquote> 
+<h3><a id="314__296"></a>3.14 特殊符号</h3> 
+<p>对于Markdown中的语法符号，前面家反斜线<code>\</code>即可以显示符号本身。<br> 代码：</p> 
+<pre><code>\\
+\*
+\_
+\+
+\.
+等等
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <p>\<br> *<br> _<br> +<br> .</p> 
+</blockquote> 
+<hr> 
+<h2><a id="Markdown_315"></a>四、Markdown的高级用法</h2> 
+<h3><a id="41__316"></a>4.1 个人看法</h3> 
+<p><code>Markdown</code> 是非常厉害的，但是我认为它建立的初衷是为了方便大家记笔记写博客，它具有很强大的功能，例如流程图、复杂的公式呈现，虽然看起来很有用，但是我认为这些功能与它创立的初衷是违背的，而且做流程图和复杂的公式是有专门的工具，而且十分便捷。所以个人认为，<code>Markdown</code>的一些高级用法了解一下即可，博主也不是很会使用参考了其他资料稍微来整理一下笔记。此处只简要提一下，如果想要了解更多详细的高级用法：<a href="https://www.runoob.com/markdown/md-advance.html" rel="nofollow">菜鸟教程Markdown高级用法</a>、<a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-%E9%AB%98%E9%98%B6%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C" rel="nofollow">Cmd Markdown 简明语法手册</a></p> 
+<h3><a id="42__318"></a>4.2 制作待办事项</h3> 
+<p>我们可以使用<code>Markdown</code>来制作一个待办事项，格式为、<code>-[]</code> 表示未完成；<code>-[x]</code>表示已完成<br> 代码：</p> 
+<pre><code>- [ ] 支持以 PDF 格式导出文稿
+- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+- [x] 新增 Todo 列表功能
+- [x] 修复 LaTex 公式渲染问题
+- [x] 新增 LaTex 公式编号功能
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <ul><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled"> 支持以 PDF 格式导出文稿</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="true" disabled="disabled"> 新增 Todo 列表功能</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="true" disabled="disabled"> 修复 LaTex 公式渲染问题</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="true" disabled="disabled"> 新增 LaTex 公式编号功能</li></ul> 
+</blockquote> 
+<h3><a id="43__335"></a>4.3 书写公式</h3> 
+<p>Markdown支持书写公式，例如书写一个质能守恒公式。<br> <code>$$</code>表示整行公式<br> 代码：</p> 
+<pre><code>$$E=mc^2$$
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <p><span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml"> 
+       
+        
+         
+         
+           E 
+          
+         
+           = 
+          
+         
+           m 
+          
+          
+          
+            c 
+           
+          
+            2 
+           
+          
+         
+        
+          E=mc^2 
+         
+        
+      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.0576em;">E</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.8641em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8641em;"><span class="" style="top: -3.113em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></span></p> 
+</blockquote> 
+<h3><a id="44__345"></a>4.4 绘制流程图</h3> 
+<p>代码:<br> <img src="http://apis.todo6.com/app/operate/csdn/proxy?url=https%3A%2F%2Fi-blog.csdnimg.cn%2Fblog_migrate%2F9694f02d0c0e830022b8d4121a2431b5.png" alt="在这里插入图片描述"><br> 效果：</p> 
+<div class="mermaid sequence-diagram flow-chart"> 
+ <svg height="409.4256591796875" version="1.1" width="181.54052734375" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative;" viewBox="0 0 181.54052734375 409.4256591796875" preserveAspectRatio="xMidYMid meet"> 
+  <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+    Created with Raphaël 2.3.0 
+  </desc> 
+  <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"> 
+   <marker id="raphael-marker-endblock33-obj3dhvb" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"> 
+    <use transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use> 
+   </marker> 
+   <marker id="raphael-marker-endblock33-objjywm8" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"> 
+    <use transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use> 
+   </marker> 
+   <marker id="raphael-marker-endblock33-objivrqn" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"> 
+    <use transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use> 
+   </marker> 
+   <marker id="raphael-marker-endblock33-obj9l35h" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"> 
+    <use transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use> 
+   </marker> 
+  </defs> 
+  <rect x="0" y="0" width="52.33203125" height="39" rx="20" ry="20" fill="#ffffff" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-width="1" class="flowchart" id="st" transform="matrix(1,0,0,1,52.6042,20.8851)"></rect> 
+  <text x="10" y="19.5" text-anchor="start" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: sans-serif; font-size: 14px; font-weight: normal;" id="stt" class="flowchartt" transform="matrix(1,0,0,1,52.6042,20.8851)" stroke-width="1"> 
+   <tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="5.5">
+     Start 
+   </tspan> 
+  </text> 
+  <rect x="0" y="0" width="123" height="39" rx="0" ry="0" fill="#ffffff" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-width="1" class="flowchart" id="op" transform="matrix(1,0,0,1,17.2703,130.7703)"></rect> 
+  <text x="10" y="19.5" text-anchor="start" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: sans-serif; font-size: 14px; font-weight: normal;" id="opt" class="flowchartt" transform="matrix(1,0,0,1,17.2703,130.7703)" stroke-width="1"> 
+   <tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="5.5">
+     Your Operation 
+   </tspan> 
+  </text> 
+  <path fill="#ffffff" stroke="#000000" d="M38.3851318359375,19.19256591796875L0,38.3851318359375L76.770263671875,76.770263671875L153.54052734375,38.3851318359375L76.770263671875,0L0,38.3851318359375" stroke-width="1" id="cond" class="flowchart" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: sans-serif; font-weight: normal;" transform="matrix(1,0,0,1,2,221.7703)"></path> 
+  <text x="43.3851318359375" y="38.3851318359375" text-anchor="start" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: sans-serif; font-size: 14px; font-weight: normal;" id="condt" class="flowchartt" transform="matrix(1,0,0,1,2,221.7703)" stroke-width="1"> 
+   <tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="5.5">
+     Yes or No? 
+   </tspan> 
+  </text> 
+  <rect x="0" y="0" width="45.32421875" height="39" rx="20" ry="20" fill="#ffffff" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-width="1" class="flowchart" id="e" transform="matrix(1,0,0,1,56.1082,369.4257)"></rect> 
+  <text x="10" y="19.5" text-anchor="start" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: sans-serif; font-size: 14px; font-weight: normal;" id="et" class="flowchartt" transform="matrix(1,0,0,1,56.1082,369.4257)" stroke-width="1"> 
+   <tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="5.5">
+     End 
+   </tspan> 
+  </text> 
+  <path fill="none" stroke="#000000" d="M78.770263671875,59.8851318359375C78.770263671875,59.8851318359375,78.770263671875,119.04712839014246,78.770263671875,129.2733719351564" stroke-width="1" marker-end="url(#raphael-marker-endblock33-obj3dhvb)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: sans-serif; font-weight: normal;"></path> 
+  <path fill="none" stroke="#000000" d="M78.770263671875,169.770263671875C78.770263671875,169.770263671875,78.770263671875,211.744140625,78.770263671875,220.27008438110352" stroke-width="1" marker-end="url(#raphael-marker-endblock33-objjywm8)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: sans-serif; font-weight: normal;"></path> 
+  <path fill="none" stroke="#000000" d="M78.770263671875,298.54052734375C78.770263671875,298.54052734375,78.770263671875,357.70252389795496,78.770263671875,367.9287674429689" stroke-width="1" marker-end="url(#raphael-marker-endblock33-objivrqn)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: sans-serif; font-weight: normal;"></path> 
+  <text x="83.770263671875" y="308.54052734375" text-anchor="start" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: sans-serif; font-size: 14px; font-weight: normal;" stroke-width="1"> 
+   <tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="5">
+     yes 
+   </tspan> 
+  </text> 
+  <path fill="none" stroke="#000000" d="M155.54052734375,260.1553955078125C155.54052734375,260.1553955078125,180.54052734375,260.1553955078125,180.54052734375,260.1553955078125C180.54052734375,260.1553955078125,180.54052734375,105.770263671875,180.54052734375,105.770263671875C180.54052734375,105.770263671875,78.770263671875,105.770263671875,78.770263671875,105.770263671875C78.770263671875,105.770263671875,78.770263671875,123.85767459869385,78.770263671875,129.26270169205964" stroke-width="1" marker-end="url(#raphael-marker-endblock33-obj9l35h)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: sans-serif; font-weight: normal;"></path> 
+  <text x="160.54052734375" y="250.1553955078125" text-anchor="start" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: sans-serif; font-size: 14px; font-weight: normal;" stroke-width="1"> 
+   <tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="5">
+     no 
+   </tspan> 
+  </text> 
+ </svg> 
+</div> 
+<h3><a id="45__361"></a>4.5 绘制序列图</h3> 
+<p>代码：<br> <img src="http://apis.todo6.com/app/operate/csdn/proxy?url=https%3A%2F%2Fi-blog.csdnimg.cn%2Fblog_migrate%2F2cdfcfdc5c5222178391b77399632e9d.png" alt="在这里插入图片描述"></p> 
+<p>效果：</p> 
+<div class="mermaid"> 
+ <svg id="mermaid-svg-D7xAO2LGPR8S2Mhl" width="100%" xmlns="http://www.w3.org/2000/svg" height="321" style="max-width: 606px;" viewBox="-50 -10 606 321" class="mermaid-svg"> 
+  <style>#mermaid-svg-D7xAO2LGPR8S2Mhl {font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#mermaid-svg-D7xAO2LGPR8S2Mhl .error-icon{fill:#552222;}#mermaid-svg-D7xAO2LGPR8S2Mhl .error-text{fill:#552222;stroke:#552222;}#mermaid-svg-D7xAO2LGPR8S2Mhl .edge-thickness-normal{stroke-width:2px;}#mermaid-svg-D7xAO2LGPR8S2Mhl .edge-thickness-thick{stroke-width:3.5px;}#mermaid-svg-D7xAO2LGPR8S2Mhl .edge-pattern-solid{stroke-dasharray:0;}#mermaid-svg-D7xAO2LGPR8S2Mhl .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-svg-D7xAO2LGPR8S2Mhl .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-svg-D7xAO2LGPR8S2Mhl .marker{fill:#333333;stroke:#333333;}#mermaid-svg-D7xAO2LGPR8S2Mhl .marker.cross{stroke:#333333;}#mermaid-svg-D7xAO2LGPR8S2Mhl svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-svg-D7xAO2LGPR8S2Mhl .actor{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-svg-D7xAO2LGPR8S2Mhl text.actor&gt;tspan{fill:black;stroke:none;}#mermaid-svg-D7xAO2LGPR8S2Mhl .actor-line{stroke:grey;}#mermaid-svg-D7xAO2LGPR8S2Mhl .messageLine0{stroke-width:1.5;stroke-dasharray:none;stroke:#333;}#mermaid-svg-D7xAO2LGPR8S2Mhl .messageLine1{stroke-width:1.5;stroke-dasharray:2,2;stroke:#333;}#mermaid-svg-D7xAO2LGPR8S2Mhl #arrowhead path{fill:#333;stroke:#333;}#mermaid-svg-D7xAO2LGPR8S2Mhl .sequenceNumber{fill:white;}#mermaid-svg-D7xAO2LGPR8S2Mhl #sequencenumber{fill:#333;}#mermaid-svg-D7xAO2LGPR8S2Mhl #crosshead path{fill:#333;stroke:#333;}#mermaid-svg-D7xAO2LGPR8S2Mhl .messageText{fill:#333;stroke:#333;}#mermaid-svg-D7xAO2LGPR8S2Mhl .labelBox{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-svg-D7xAO2LGPR8S2Mhl .labelText,#mermaid-svg-D7xAO2LGPR8S2Mhl .labelText&gt;tspan{fill:black;stroke:none;}#mermaid-svg-D7xAO2LGPR8S2Mhl .loopText,#mermaid-svg-D7xAO2LGPR8S2Mhl .loopText&gt;tspan{fill:black;stroke:none;}#mermaid-svg-D7xAO2LGPR8S2Mhl .loopLine{stroke-width:2px;stroke-dasharray:2,2;stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);}#mermaid-svg-D7xAO2LGPR8S2Mhl .note{stroke:#aaaa33;fill:#fff5ad;}#mermaid-svg-D7xAO2LGPR8S2Mhl .noteText,#mermaid-svg-D7xAO2LGPR8S2Mhl .noteText&gt;tspan{fill:black;stroke:none;}#mermaid-svg-D7xAO2LGPR8S2Mhl .activation0{fill:#f4f4f4;stroke:#666;}#mermaid-svg-D7xAO2LGPR8S2Mhl .activation1{fill:#f4f4f4;stroke:#666;}#mermaid-svg-D7xAO2LGPR8S2Mhl .activation2{fill:#f4f4f4;stroke:#666;}#mermaid-svg-D7xAO2LGPR8S2Mhl .actorPopupMenu{position:absolute;}#mermaid-svg-D7xAO2LGPR8S2Mhl .actorPopupMenuPanel{position:absolute;fill:#ECECFF;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);filter:drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));}#mermaid-svg-D7xAO2LGPR8S2Mhl .actor-man line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-svg-D7xAO2LGPR8S2Mhl .actor-man circle,#mermaid-svg-D7xAO2LGPR8S2Mhl line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;stroke-width:2px;}#mermaid-svg-D7xAO2LGPR8S2Mhl :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style> 
+  <g></g> 
+  <defs> 
+   <symbol id="computer" width="24" height="24"> 
+    <path transform="scale(.5)" d="M2 2v13h20v-13h-20zm18 11h-16v-9h16v9zm-10.228 6l.466-1h3.524l.467 1h-4.457zm14.228 3h-24l2-6h2.104l-1.33 4h18.45l-1.297-4h2.073l2 6zm-5-10h-14v-7h14v7z"></path> 
+   </symbol> 
+  </defs> 
+  <defs> 
+   <symbol id="database" fill-rule="evenodd"> 
+    <path transform="scale(.5)" d="M12.258.001l.256.004.255.005.253.008.251.01.249.012.247.015.246.016.242.019.241.02.239.023.236.024.233.027.231.028.229.031.225.032.223.034.22.036.217.038.214.04.211.041.208.043.205.045.201.046.198.048.194.05.191.051.187.053.183.054.18.056.175.057.172.059.168.06.163.061.16.063.155.064.15.066.074.033.073.033.071.034.07.034.069.035.068.035.067.035.066.035.064.036.064.036.062.036.06.036.06.037.058.037.058.037.055.038.055.038.053.038.052.038.051.039.05.039.048.039.047.039.045.04.044.04.043.04.041.04.04.041.039.041.037.041.036.041.034.041.033.042.032.042.03.042.029.042.027.042.026.043.024.043.023.043.021.043.02.043.018.044.017.043.015.044.013.044.012.044.011.045.009.044.007.045.006.045.004.045.002.045.001.045v17l-.001.045-.002.045-.004.045-.006.045-.007.045-.009.044-.011.045-.012.044-.013.044-.015.044-.017.043-.018.044-.02.043-.021.043-.023.043-.024.043-.026.043-.027.042-.029.042-.03.042-.032.042-.033.042-.034.041-.036.041-.037.041-.039.041-.04.041-.041.04-.043.04-.044.04-.045.04-.047.039-.048.039-.05.039-.051.039-.052.038-.053.038-.055.038-.055.038-.058.037-.058.037-.06.037-.06.036-.062.036-.064.036-.064.036-.066.035-.067.035-.068.035-.069.035-.07.034-.071.034-.073.033-.074.033-.15.066-.155.064-.16.063-.163.061-.168.06-.172.059-.175.057-.18.056-.183.054-.187.053-.191.051-.194.05-.198.048-.201.046-.205.045-.208.043-.211.041-.214.04-.217.038-.22.036-.223.034-.225.032-.229.031-.231.028-.233.027-.236.024-.239.023-.241.02-.242.019-.246.016-.247.015-.249.012-.251.01-.253.008-.255.005-.256.004-.258.001-.258-.001-.256-.004-.255-.005-.253-.008-.251-.01-.249-.012-.247-.015-.245-.016-.243-.019-.241-.02-.238-.023-.236-.024-.234-.027-.231-.028-.228-.031-.226-.032-.223-.034-.22-.036-.217-.038-.214-.04-.211-.041-.208-.043-.204-.045-.201-.046-.198-.048-.195-.05-.19-.051-.187-.053-.184-.054-.179-.056-.176-.057-.172-.059-.167-.06-.164-.061-.159-.063-.155-.064-.151-.066-.074-.033-.072-.033-.072-.034-.07-.034-.069-.035-.068-.035-.067-.035-.066-.035-.064-.036-.063-.036-.062-.036-.061-.036-.06-.037-.058-.037-.057-.037-.056-.038-.055-.038-.053-.038-.052-.038-.051-.039-.049-.039-.049-.039-.046-.039-.046-.04-.044-.04-.043-.04-.041-.04-.04-.041-.039-.041-.037-.041-.036-.041-.034-.041-.033-.042-.032-.042-.03-.042-.029-.042-.027-.042-.026-.043-.024-.043-.023-.043-.021-.043-.02-.043-.018-.044-.017-.043-.015-.044-.013-.044-.012-.044-.011-.045-.009-.044-.007-.045-.006-.045-.004-.045-.002-.045-.001-.045v-17l.001-.045.002-.045.004-.045.006-.045.007-.045.009-.044.011-.045.012-.044.013-.044.015-.044.017-.043.018-.044.02-.043.021-.043.023-.043.024-.043.026-.043.027-.042.029-.042.03-.042.032-.042.033-.042.034-.041.036-.041.037-.041.039-.041.04-.041.041-.04.043-.04.044-.04.046-.04.046-.039.049-.039.049-.039.051-.039.052-.038.053-.038.055-.038.056-.038.057-.037.058-.037.06-.037.061-.036.062-.036.063-.036.064-.036.066-.035.067-.035.068-.035.069-.035.07-.034.072-.034.072-.033.074-.033.151-.066.155-.064.159-.063.164-.061.167-.06.172-.059.176-.057.179-.056.184-.054.187-.053.19-.051.195-.05.198-.048.201-.046.204-.045.208-.043.211-.041.214-.04.217-.038.22-.036.223-.034.226-.032.228-.031.231-.028.234-.027.236-.024.238-.023.241-.02.243-.019.245-.016.247-.015.249-.012.251-.01.253-.008.255-.005.256-.004.258-.001.258.001zm-9.258 20.499v.01l.001.021.003.021.004.022.005.021.006.022.007.022.009.023.01.022.011.023.012.023.013.023.015.023.016.024.017.023.018.024.019.024.021.024.022.025.023.024.024.025.052.049.056.05.061.051.066.051.07.051.075.051.079.052.084.052.088.052.092.052.097.052.102.051.105.052.11.052.114.051.119.051.123.051.127.05.131.05.135.05.139.048.144.049.147.047.152.047.155.047.16.045.163.045.167.043.171.043.176.041.178.041.183.039.187.039.19.037.194.035.197.035.202.033.204.031.209.03.212.029.216.027.219.025.222.024.226.021.23.02.233.018.236.016.24.015.243.012.246.01.249.008.253.005.256.004.259.001.26-.001.257-.004.254-.005.25-.008.247-.011.244-.012.241-.014.237-.016.233-.018.231-.021.226-.021.224-.024.22-.026.216-.027.212-.028.21-.031.205-.031.202-.034.198-.034.194-.036.191-.037.187-.039.183-.04.179-.04.175-.042.172-.043.168-.044.163-.045.16-.046.155-.046.152-.047.148-.048.143-.049.139-.049.136-.05.131-.05.126-.05.123-.051.118-.052.114-.051.11-.052.106-.052.101-.052.096-.052.092-.052.088-.053.083-.051.079-.052.074-.052.07-.051.065-.051.06-.051.056-.05.051-.05.023-.024.023-.025.021-.024.02-.024.019-.024.018-.024.017-.024.015-.023.014-.024.013-.023.012-.023.01-.023.01-.022.008-.022.006-.022.006-.022.004-.022.004-.021.001-.021.001-.021v-4.127l-.077.055-.08.053-.083.054-.085.053-.087.052-.09.052-.093.051-.095.05-.097.05-.1.049-.102.049-.105.048-.106.047-.109.047-.111.046-.114.045-.115.045-.118.044-.12.043-.122.042-.124.042-.126.041-.128.04-.13.04-.132.038-.134.038-.135.037-.138.037-.139.035-.142.035-.143.034-.144.033-.147.032-.148.031-.15.03-.151.03-.153.029-.154.027-.156.027-.158.026-.159.025-.161.024-.162.023-.163.022-.165.021-.166.02-.167.019-.169.018-.169.017-.171.016-.173.015-.173.014-.175.013-.175.012-.177.011-.178.01-.179.008-.179.008-.181.006-.182.005-.182.004-.184.003-.184.002h-.37l-.184-.002-.184-.003-.182-.004-.182-.005-.181-.006-.179-.008-.179-.008-.178-.01-.176-.011-.176-.012-.175-.013-.173-.014-.172-.015-.171-.016-.17-.017-.169-.018-.167-.019-.166-.02-.165-.021-.163-.022-.162-.023-.161-.024-.159-.025-.157-.026-.156-.027-.155-.027-.153-.029-.151-.03-.15-.03-.148-.031-.146-.032-.145-.033-.143-.034-.141-.035-.14-.035-.137-.037-.136-.037-.134-.038-.132-.038-.13-.04-.128-.04-.126-.041-.124-.042-.122-.042-.12-.044-.117-.043-.116-.045-.113-.045-.112-.046-.109-.047-.106-.047-.105-.048-.102-.049-.1-.049-.097-.05-.095-.05-.093-.052-.09-.051-.087-.052-.085-.053-.083-.054-.08-.054-.077-.054v4.127zm0-5.654v.011l.001.021.003.021.004.021.005.022.006.022.007.022.009.022.01.022.011.023.012.023.013.023.015.024.016.023.017.024.018.024.019.024.021.024.022.024.023.025.024.024.052.05.056.05.061.05.066.051.07.051.075.052.079.051.084.052.088.052.092.052.097.052.102.052.105.052.11.051.114.051.119.052.123.05.127.051.131.05.135.049.139.049.144.048.147.048.152.047.155.046.16.045.163.045.167.044.171.042.176.042.178.04.183.04.187.038.19.037.194.036.197.034.202.033.204.032.209.03.212.028.216.027.219.025.222.024.226.022.23.02.233.018.236.016.24.014.243.012.246.01.249.008.253.006.256.003.259.001.26-.001.257-.003.254-.006.25-.008.247-.01.244-.012.241-.015.237-.016.233-.018.231-.02.226-.022.224-.024.22-.025.216-.027.212-.029.21-.03.205-.032.202-.033.198-.035.194-.036.191-.037.187-.039.183-.039.179-.041.175-.042.172-.043.168-.044.163-.045.16-.045.155-.047.152-.047.148-.048.143-.048.139-.05.136-.049.131-.05.126-.051.123-.051.118-.051.114-.052.11-.052.106-.052.101-.052.096-.052.092-.052.088-.052.083-.052.079-.052.074-.051.07-.052.065-.051.06-.05.056-.051.051-.049.023-.025.023-.024.021-.025.02-.024.019-.024.018-.024.017-.024.015-.023.014-.023.013-.024.012-.022.01-.023.01-.023.008-.022.006-.022.006-.022.004-.021.004-.022.001-.021.001-.021v-4.139l-.077.054-.08.054-.083.054-.085.052-.087.053-.09.051-.093.051-.095.051-.097.05-.1.049-.102.049-.105.048-.106.047-.109.047-.111.046-.114.045-.115.044-.118.044-.12.044-.122.042-.124.042-.126.041-.128.04-.13.039-.132.039-.134.038-.135.037-.138.036-.139.036-.142.035-.143.033-.144.033-.147.033-.148.031-.15.03-.151.03-.153.028-.154.028-.156.027-.158.026-.159.025-.161.024-.162.023-.163.022-.165.021-.166.02-.167.019-.169.018-.169.017-.171.016-.173.015-.173.014-.175.013-.175.012-.177.011-.178.009-.179.009-.179.007-.181.007-.182.005-.182.004-.184.003-.184.002h-.37l-.184-.002-.184-.003-.182-.004-.182-.005-.181-.007-.179-.007-.179-.009-.178-.009-.176-.011-.176-.012-.175-.013-.173-.014-.172-.015-.171-.016-.17-.017-.169-.018-.167-.019-.166-.02-.165-.021-.163-.022-.162-.023-.161-.024-.159-.025-.157-.026-.156-.027-.155-.028-.153-.028-.151-.03-.15-.03-.148-.031-.146-.033-.145-.033-.143-.033-.141-.035-.14-.036-.137-.036-.136-.037-.134-.038-.132-.039-.13-.039-.128-.04-.126-.041-.124-.042-.122-.043-.12-.043-.117-.044-.116-.044-.113-.046-.112-.046-.109-.046-.106-.047-.105-.048-.102-.049-.1-.049-.097-.05-.095-.051-.093-.051-.09-.051-.087-.053-.085-.052-.083-.054-.08-.054-.077-.054v4.139zm0-5.666v.011l.001.02.003.022.004.021.005.022.006.021.007.022.009.023.01.022.011.023.012.023.013.023.015.023.016.024.017.024.018.023.019.024.021.025.022.024.023.024.024.025.052.05.056.05.061.05.066.051.07.051.075.052.079.051.084.052.088.052.092.052.097.052.102.052.105.051.11.052.114.051.119.051.123.051.127.05.131.05.135.05.139.049.144.048.147.048.152.047.155.046.16.045.163.045.167.043.171.043.176.042.178.04.183.04.187.038.19.037.194.036.197.034.202.033.204.032.209.03.212.028.216.027.219.025.222.024.226.021.23.02.233.018.236.017.24.014.243.012.246.01.249.008.253.006.256.003.259.001.26-.001.257-.003.254-.006.25-.008.247-.01.244-.013.241-.014.237-.016.233-.018.231-.02.226-.022.224-.024.22-.025.216-.027.212-.029.21-.03.205-.032.202-.033.198-.035.194-.036.191-.037.187-.039.183-.039.179-.041.175-.042.172-.043.168-.044.163-.045.16-.045.155-.047.152-.047.148-.048.143-.049.139-.049.136-.049.131-.051.126-.05.123-.051.118-.052.114-.051.11-.052.106-.052.101-.052.096-.052.092-.052.088-.052.083-.052.079-.052.074-.052.07-.051.065-.051.06-.051.056-.05.051-.049.023-.025.023-.025.021-.024.02-.024.019-.024.018-.024.017-.024.015-.023.014-.024.013-.023.012-.023.01-.022.01-.023.008-.022.006-.022.006-.022.004-.022.004-.021.001-.021.001-.021v-4.153l-.077.054-.08.054-.083.053-.085.053-.087.053-.09.051-.093.051-.095.051-.097.05-.1.049-.102.048-.105.048-.106.048-.109.046-.111.046-.114.046-.115.044-.118.044-.12.043-.122.043-.124.042-.126.041-.128.04-.13.039-.132.039-.134.038-.135.037-.138.036-.139.036-.142.034-.143.034-.144.033-.147.032-.148.032-.15.03-.151.03-.153.028-.154.028-.156.027-.158.026-.159.024-.161.024-.162.023-.163.023-.165.021-.166.02-.167.019-.169.018-.169.017-.171.016-.173.015-.173.014-.175.013-.175.012-.177.01-.178.01-.179.009-.179.007-.181.006-.182.006-.182.004-.184.003-.184.001-.185.001-.185-.001-.184-.001-.184-.003-.182-.004-.182-.006-.181-.006-.179-.007-.179-.009-.178-.01-.176-.01-.176-.012-.175-.013-.173-.014-.172-.015-.171-.016-.17-.017-.169-.018-.167-.019-.166-.02-.165-.021-.163-.023-.162-.023-.161-.024-.159-.024-.157-.026-.156-.027-.155-.028-.153-.028-.151-.03-.15-.03-.148-.032-.146-.032-.145-.033-.143-.034-.141-.034-.14-.036-.137-.036-.136-.037-.134-.038-.132-.039-.13-.039-.128-.041-.126-.041-.124-.041-.122-.043-.12-.043-.117-.044-.116-.044-.113-.046-.112-.046-.109-.046-.106-.048-.105-.048-.102-.048-.1-.05-.097-.049-.095-.051-.093-.051-.09-.052-.087-.052-.085-.053-.083-.053-.08-.054-.077-.054v4.153zm8.74-8.179l-.257.004-.254.005-.25.008-.247.011-.244.012-.241.014-.237.016-.233.018-.231.021-.226.022-.224.023-.22.026-.216.027-.212.028-.21.031-.205.032-.202.033-.198.034-.194.036-.191.038-.187.038-.183.04-.179.041-.175.042-.172.043-.168.043-.163.045-.16.046-.155.046-.152.048-.148.048-.143.048-.139.049-.136.05-.131.05-.126.051-.123.051-.118.051-.114.052-.11.052-.106.052-.101.052-.096.052-.092.052-.088.052-.083.052-.079.052-.074.051-.07.052-.065.051-.06.05-.056.05-.051.05-.023.025-.023.024-.021.024-.02.025-.019.024-.018.024-.017.023-.015.024-.014.023-.013.023-.012.023-.01.023-.01.022-.008.022-.006.023-.006.021-.004.022-.004.021-.001.021-.001.021.001.021.001.021.004.021.004.022.006.021.006.023.008.022.01.022.01.023.012.023.013.023.014.023.015.024.017.023.018.024.019.024.02.025.021.024.023.024.023.025.051.05.056.05.06.05.065.051.07.052.074.051.079.052.083.052.088.052.092.052.096.052.101.052.106.052.11.052.114.052.118.051.123.051.126.051.131.05.136.05.139.049.143.048.148.048.152.048.155.046.16.046.163.045.168.043.172.043.175.042.179.041.183.04.187.038.191.038.194.036.198.034.202.033.205.032.21.031.212.028.216.027.22.026.224.023.226.022.231.021.233.018.237.016.241.014.244.012.247.011.25.008.254.005.257.004.26.001.26-.001.257-.004.254-.005.25-.008.247-.011.244-.012.241-.014.237-.016.233-.018.231-.021.226-.022.224-.023.22-.026.216-.027.212-.028.21-.031.205-.032.202-.033.198-.034.194-.036.191-.038.187-.038.183-.04.179-.041.175-.042.172-.043.168-.043.163-.045.16-.046.155-.046.152-.048.148-.048.143-.048.139-.049.136-.05.131-.05.126-.051.123-.051.118-.051.114-.052.11-.052.106-.052.101-.052.096-.052.092-.052.088-.052.083-.052.079-.052.074-.051.07-.052.065-.051.06-.05.056-.05.051-.05.023-.025.023-.024.021-.024.02-.025.019-.024.018-.024.017-.023.015-.024.014-.023.013-.023.012-.023.01-.023.01-.022.008-.022.006-.023.006-.021.004-.022.004-.021.001-.021.001-.021-.001-.021-.001-.021-.004-.021-.004-.022-.006-.021-.006-.023-.008-.022-.01-.022-.01-.023-.012-.023-.013-.023-.014-.023-.015-.024-.017-.023-.018-.024-.019-.024-.02-.025-.021-.024-.023-.024-.023-.025-.051-.05-.056-.05-.06-.05-.065-.051-.07-.052-.074-.051-.079-.052-.083-.052-.088-.052-.092-.052-.096-.052-.101-.052-.106-.052-.11-.052-.114-.052-.118-.051-.123-.051-.126-.051-.131-.05-.136-.05-.139-.049-.143-.048-.148-.048-.152-.048-.155-.046-.16-.046-.163-.045-.168-.043-.172-.043-.175-.042-.179-.041-.183-.04-.187-.038-.191-.038-.194-.036-.198-.034-.202-.033-.205-.032-.21-.031-.212-.028-.216-.027-.22-.026-.224-.023-.226-.022-.231-.021-.233-.018-.237-.016-.241-.014-.244-.012-.247-.011-.25-.008-.254-.005-.257-.004-.26-.001-.26.001z"></path> 
+   </symbol> 
+  </defs> 
+  <defs> 
+   <symbol id="clock" width="24" height="24"> 
+    <path transform="scale(.5)" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.848 12.459c.202.038.202.333.001.372-1.907.361-6.045 1.111-6.547 1.111-.719 0-1.301-.582-1.301-1.301 0-.512.77-5.447 1.125-7.445.034-.192.312-.181.343.014l.985 6.238 5.394 1.011z"></path> 
+   </symbol> 
+  </defs> 
+  <g> 
+   <line id="actor2" x1="75" y1="5" x2="75" y2="255" class="200" stroke-width="0.5px" stroke="#999"></line> 
+   <g id="root-2"> 
+    <rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect> 
+    <text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, &quot;sans-serif&quot;;"> 
+     <tspan x="75" dy="0">
+       Alice 
+     </tspan> 
+    </text> 
+   </g> 
+  </g> 
+  <g> 
+   <line id="actor3" x1="331" y1="5" x2="331" y2="255" class="200" stroke-width="0.5px" stroke="#999"></line> 
+   <g id="root-3"> 
+    <rect x="256" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect> 
+    <text x="331" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, &quot;sans-serif&quot;;"> 
+     <tspan x="331" dy="0">
+       Bob 
+     </tspan> 
+    </text> 
+   </g> 
+  </g> 
+  <defs> 
+   <marker id="arrowhead" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"> 
+    <path d="M 0 0 L 10 5 L 0 10 z"></path> 
+   </marker> 
+  </defs> 
+  <defs> 
+   <marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"> 
+    <path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path> 
+    <path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path> 
+   </marker> 
+  </defs> 
+  <defs> 
+   <marker id="filled-head" refX="18" refY="7" markerWidth="20" markerHeight="28" orient="auto"> 
+    <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path> 
+   </marker> 
+  </defs> 
+  <defs> 
+   <marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"> 
+    <circle cx="15" cy="15" r="6"></circle> 
+   </marker> 
+  </defs> 
+  <text x="203" y="80" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif; font-size: 16px; font-weight: 400;">
+    Hello Bob, how are you? 
+  </text> 
+  <line x1="75" y1="117" x2="331" y2="117" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line> 
+  <g> 
+   <rect x="356" y="127" fill="#EDF2AE" stroke="#666" width="150" height="36" rx="0" ry="0" class="note"></rect> 
+   <text x="431" y="132" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="noteText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif; font-size: 14px; font-weight: 400;"> 
+    <tspan x="431">
+      Bob thinks 
+    </tspan> 
+   </text> 
+  </g> 
+  <text x="203" y="178" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif; font-size: 16px; font-weight: 400;">
+    I am good thanks! 
+  </text> 
+  <line x1="331" y1="215" x2="75" y2="215" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line> 
+  <g> 
+   <rect x="0" y="235" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect> 
+   <text x="75" y="267.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, &quot;sans-serif&quot;;"> 
+    <tspan x="75" dy="0">
+      Alice 
+    </tspan> 
+   </text> 
+  </g> 
+  <g> 
+   <rect x="256" y="235" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect> 
+   <text x="331" y="267.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, &quot;sans-serif&quot;;"> 
+    <tspan x="331" dy="0">
+      Bob 
+    </tspan> 
+   </text> 
+  </g> 
+ </svg> 
+</div> 
+<h3><a id="46__372"></a>4.6 绘制甘特图</h3> 
+<p>代码：<br> <img src="http://apis.todo6.com/app/operate/csdn/proxy?url=https%3A%2F%2Fi-blog.csdnimg.cn%2Fblog_migrate%2Ff715523bdb6e01161a5a98f1001c9256.png" alt="在这里插入图片描述"></p> 
+<p>效果：</p> 
+<div class="mermaid"> 
+ <svg id="mermaid-svg-I4Yy2bCmpOuiu7et" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 316" height="316" style="max-width: 1200px;" class="mermaid-svg"> 
+  <style>#mermaid-svg-I4Yy2bCmpOuiu7et {font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#mermaid-svg-I4Yy2bCmpOuiu7et .error-icon{fill:#552222;}#mermaid-svg-I4Yy2bCmpOuiu7et .error-text{fill:#552222;stroke:#552222;}#mermaid-svg-I4Yy2bCmpOuiu7et .edge-thickness-normal{stroke-width:2px;}#mermaid-svg-I4Yy2bCmpOuiu7et .edge-thickness-thick{stroke-width:3.5px;}#mermaid-svg-I4Yy2bCmpOuiu7et .edge-pattern-solid{stroke-dasharray:0;}#mermaid-svg-I4Yy2bCmpOuiu7et .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-svg-I4Yy2bCmpOuiu7et .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-svg-I4Yy2bCmpOuiu7et .marker{fill:#333333;stroke:#333333;}#mermaid-svg-I4Yy2bCmpOuiu7et .marker.cross{stroke:#333333;}#mermaid-svg-I4Yy2bCmpOuiu7et svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-svg-I4Yy2bCmpOuiu7et .mermaid-main-font{font-family:"trebuchet ms",verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-svg-I4Yy2bCmpOuiu7et .exclude-range{fill:#eeeeee;}#mermaid-svg-I4Yy2bCmpOuiu7et .section{stroke:none;opacity:0.2;}#mermaid-svg-I4Yy2bCmpOuiu7et .section0{fill:rgba(102, 102, 255, 0.49);}#mermaid-svg-I4Yy2bCmpOuiu7et .section2{fill:#fff400;}#mermaid-svg-I4Yy2bCmpOuiu7et .section1,#mermaid-svg-I4Yy2bCmpOuiu7et .section3{fill:white;opacity:0.2;}#mermaid-svg-I4Yy2bCmpOuiu7et .sectionTitle0{fill:#333;}#mermaid-svg-I4Yy2bCmpOuiu7et .sectionTitle1{fill:#333;}#mermaid-svg-I4Yy2bCmpOuiu7et .sectionTitle2{fill:#333;}#mermaid-svg-I4Yy2bCmpOuiu7et .sectionTitle3{fill:#333;}#mermaid-svg-I4Yy2bCmpOuiu7et .sectionTitle{text-anchor:start;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-svg-I4Yy2bCmpOuiu7et .grid .tick{stroke:lightgrey;opacity:0.8;shape-rendering:crispEdges;}#mermaid-svg-I4Yy2bCmpOuiu7et .grid .tick text{font-family:"trebuchet ms",verdana,arial,sans-serif;fill:#333;}#mermaid-svg-I4Yy2bCmpOuiu7et .grid path{stroke-width:0;}#mermaid-svg-I4Yy2bCmpOuiu7et .today{fill:none;stroke:red;stroke-width:2px;}#mermaid-svg-I4Yy2bCmpOuiu7et .task{stroke-width:2;}#mermaid-svg-I4Yy2bCmpOuiu7et .taskText{text-anchor:middle;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-svg-I4Yy2bCmpOuiu7et .taskTextOutsideRight{fill:black;text-anchor:start;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-svg-I4Yy2bCmpOuiu7et .taskTextOutsideLeft{fill:black;text-anchor:end;}#mermaid-svg-I4Yy2bCmpOuiu7et .task.clickable{cursor:pointer;}#mermaid-svg-I4Yy2bCmpOuiu7et .taskText.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-svg-I4Yy2bCmpOuiu7et .taskTextOutsideLeft.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-svg-I4Yy2bCmpOuiu7et .taskTextOutsideRight.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-svg-I4Yy2bCmpOuiu7et .taskText0,#mermaid-svg-I4Yy2bCmpOuiu7et .taskText1,#mermaid-svg-I4Yy2bCmpOuiu7et .taskText2,#mermaid-svg-I4Yy2bCmpOuiu7et .taskText3{fill:white;}#mermaid-svg-I4Yy2bCmpOuiu7et .task0,#mermaid-svg-I4Yy2bCmpOuiu7et .task1,#mermaid-svg-I4Yy2bCmpOuiu7et .task2,#mermaid-svg-I4Yy2bCmpOuiu7et .task3{fill:#8a90dd;stroke:#534fbc;}#mermaid-svg-I4Yy2bCmpOuiu7et .taskTextOutside0,#mermaid-svg-I4Yy2bCmpOuiu7et .taskTextOutside2{fill:black;}#mermaid-svg-I4Yy2bCmpOuiu7et .taskTextOutside1,#mermaid-svg-I4Yy2bCmpOuiu7et .taskTextOutside3{fill:black;}#mermaid-svg-I4Yy2bCmpOuiu7et .active0,#mermaid-svg-I4Yy2bCmpOuiu7et .active1,#mermaid-svg-I4Yy2bCmpOuiu7et .active2,#mermaid-svg-I4Yy2bCmpOuiu7et .active3{fill:#bfc7ff;stroke:#534fbc;}#mermaid-svg-I4Yy2bCmpOuiu7et .activeText0,#mermaid-svg-I4Yy2bCmpOuiu7et .activeText1,#mermaid-svg-I4Yy2bCmpOuiu7et .activeText2,#mermaid-svg-I4Yy2bCmpOuiu7et .activeText3{fill:black!important;}#mermaid-svg-I4Yy2bCmpOuiu7et .done0,#mermaid-svg-I4Yy2bCmpOuiu7et .done1,#mermaid-svg-I4Yy2bCmpOuiu7et .done2,#mermaid-svg-I4Yy2bCmpOuiu7et .done3{stroke:grey;fill:lightgrey;stroke-width:2;}#mermaid-svg-I4Yy2bCmpOuiu7et .doneText0,#mermaid-svg-I4Yy2bCmpOuiu7et .doneText1,#mermaid-svg-I4Yy2bCmpOuiu7et .doneText2,#mermaid-svg-I4Yy2bCmpOuiu7et .doneText3{fill:black!important;}#mermaid-svg-I4Yy2bCmpOuiu7et .crit0,#mermaid-svg-I4Yy2bCmpOuiu7et .crit1,#mermaid-svg-I4Yy2bCmpOuiu7et .crit2,#mermaid-svg-I4Yy2bCmpOuiu7et .crit3{stroke:#ff8888;fill:red;stroke-width:2;}#mermaid-svg-I4Yy2bCmpOuiu7et .activeCrit0,#mermaid-svg-I4Yy2bCmpOuiu7et .activeCrit1,#mermaid-svg-I4Yy2bCmpOuiu7et .activeCrit2,#mermaid-svg-I4Yy2bCmpOuiu7et .activeCrit3{stroke:#ff8888;fill:#bfc7ff;stroke-width:2;}#mermaid-svg-I4Yy2bCmpOuiu7et .doneCrit0,#mermaid-svg-I4Yy2bCmpOuiu7et .doneCrit1,#mermaid-svg-I4Yy2bCmpOuiu7et .doneCrit2,#mermaid-svg-I4Yy2bCmpOuiu7et .doneCrit3{stroke:#ff8888;fill:lightgrey;stroke-width:2;cursor:pointer;shape-rendering:crispEdges;}#mermaid-svg-I4Yy2bCmpOuiu7et .milestone{transform:rotate(45deg) scale(0.8,0.8);}#mermaid-svg-I4Yy2bCmpOuiu7et .milestoneText{font-style:italic;}#mermaid-svg-I4Yy2bCmpOuiu7et .doneCritText0,#mermaid-svg-I4Yy2bCmpOuiu7et .doneCritText1,#mermaid-svg-I4Yy2bCmpOuiu7et .doneCritText2,#mermaid-svg-I4Yy2bCmpOuiu7et .doneCritText3{fill:black!important;}#mermaid-svg-I4Yy2bCmpOuiu7et .activeCritText0,#mermaid-svg-I4Yy2bCmpOuiu7et .activeCritText1,#mermaid-svg-I4Yy2bCmpOuiu7et .activeCritText2,#mermaid-svg-I4Yy2bCmpOuiu7et .activeCritText3{fill:black!important;}#mermaid-svg-I4Yy2bCmpOuiu7et .titleText{text-anchor:middle;font-size:18px;fill:#333;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-svg-I4Yy2bCmpOuiu7et :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style> 
+  <g></g> 
+  <g></g> 
+  <g class="grid" transform="translate(75, 266)" fill="none" font-size="10" text-anchor="middle"> 
+   <path class="domain" stroke="currentColor" d="M0.5,-231V0.5H1050.5V-231"></path> 
+   <g class="tick" opacity="1" transform="translate(105.5,0)"> 
+    <line stroke="currentColor" y2="-231"></line> 
+    <text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">
+      2016-06-26 
+    </text> 
+   </g> 
+   <g class="tick" opacity="1" transform="translate(289.5,0)"> 
+    <line stroke="currentColor" y2="-231"></line> 
+    <text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">
+      2016-07-03 
+    </text> 
+   </g> 
+   <g class="tick" opacity="1" transform="translate(473.5,0)"> 
+    <line stroke="currentColor" y2="-231"></line> 
+    <text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">
+      2016-07-10 
+    </text> 
+   </g> 
+   <g class="tick" opacity="1" transform="translate(656.5,0)"> 
+    <line stroke="currentColor" y2="-231"></line> 
+    <text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">
+      2016-07-17 
+    </text> 
+   </g> 
+   <g class="tick" opacity="1" transform="translate(840.5,0)"> 
+    <line stroke="currentColor" y2="-231"></line> 
+    <text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">
+      2016-07-24 
+    </text> 
+   </g> 
+   <g class="tick" opacity="1" transform="translate(1024.5,0)"> 
+    <line stroke="currentColor" y2="-231"></line> 
+    <text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">
+      2016-07-31 
+    </text> 
+   </g> 
+  </g> 
+  <g> 
+   <rect x="0" y="48" width="1162.5" height="24" class="section section0"></rect> 
+   <rect x="0" y="72" width="1162.5" height="24" class="section section0"></rect> 
+   <rect x="0" y="96" width="1162.5" height="24" class="section section0"></rect> 
+   <rect x="0" y="120" width="1162.5" height="24" class="section section1"></rect> 
+   <rect x="0" y="144" width="1162.5" height="24" class="section section1"></rect> 
+   <rect x="0" y="168" width="1162.5" height="24" class="section section1"></rect> 
+   <rect x="0" y="192" width="1162.5" height="24" class="section section1"></rect> 
+   <rect x="0" y="216" width="1162.5" height="24" class="section section2"></rect> 
+   <rect x="0" y="240" width="1162.5" height="24" class="section section2"></rect> 
+  </g> 
+  <g> 
+   <rect id="a1" rx="3" ry="3" x="75" y="50" width="79" height="20" class="task task0 "></rect> 
+   <rect id="task1" rx="3" ry="3" x="154" y="74" width="131" height="20" class="task task0 "></rect> 
+   <rect id="task2" rx="3" ry="3" x="285" y="98" width="131" height="20" class="task task0 "></rect> 
+   <rect id="task3" rx="3" ry="3" x="416" y="122" width="132" height="20" class="task task1 "></rect> 
+   <rect id="task4" rx="3" ry="3" x="495" y="146" width="263" height="20" class="task task1 "></rect> 
+   <rect id="task5" rx="3" ry="3" x="679" y="170" width="262" height="20" class="task task1 "></rect> 
+   <rect id="task6" rx="3" ry="3" x="863" y="194" width="131" height="20" class="task task1 "></rect> 
+   <rect id="task7" rx="3" ry="3" x="994" y="218" width="52" height="20" class="task task2 "></rect> 
+   <rect id="task8" rx="3" ry="3" x="1046" y="242" width="79" height="20" class="task task2 "></rect> 
+   <text id="a1-text" font-size="12" x="114.5" y="64" text-height="20" class=" taskText taskText0  width-52.73210144042969">
+     需求分析 
+   </text> 
+   <text id="task1-text" font-size="12" x="219.5" y="88" text-height="20" class=" taskText taskText0  width-64.70902252197266">
+     可行性报告 
+   </text> 
+   <text id="task2-text" font-size="12" x="350.5" y="112" text-height="20" class=" taskText taskText0  width-52.73210144042969">
+     概念验证 
+   </text> 
+   <text id="task3-text" font-size="12" x="482" y="136" text-height="20" class=" taskText taskText1  width-52.73210144042969">
+     概要设计 
+   </text> 
+   <text id="task4-text" font-size="12" x="626.5" y="160" text-height="20" class=" taskText taskText1  width-52.73210144042969">
+     详细设计 
+   </text> 
+   <text id="task5-text" font-size="12" x="810" y="184" text-height="20" class=" taskText taskText1  width-26.378063201904297">
+     编码 
+   </text> 
+   <text id="task6-text" font-size="12" x="928.5" y="208" text-height="20" class=" taskText taskText1  width-28.77825355529785">
+     测试 
+   </text> 
+   <text id="task7-text" font-size="12" x="1020" y="232" text-height="20" class=" taskText taskText2  width-28.77825355529785">
+     发布 
+   </text> 
+   <text id="task8-text" font-size="12" x="1085.5" y="256" text-height="20" class=" taskText taskText2  width-28.77825355529785">
+     验收 
+   </text> 
+  </g> 
+  <g> 
+   <text dy="0em" x="10" y="86" font-size="18" class="sectionTitle sectionTitle0"> 
+    <tspan alignment-baseline="central" x="10">
+      项目确定 
+    </tspan> 
+   </text> 
+   <text dy="0em" x="10" y="170" font-size="18" class="sectionTitle sectionTitle1"> 
+    <tspan alignment-baseline="central" x="10">
+      项目实施 
+    </tspan> 
+   </text> 
+   <text dy="0em" x="10" y="242" font-size="18" class="sectionTitle sectionTitle2"> 
+    <tspan alignment-baseline="central" x="10">
+      发布验收 
+    </tspan> 
+   </text> 
+  </g> 
+  <g class="today"> 
+   <line x1="72517" x2="72517" y1="25" y2="291" class="today"></line> 
+  </g> 
+  <text x="600" y="25" class="titleText">
+    项目开发流程 
+  </text> 
+ </svg> 
+</div> 
+<blockquote> 
+ <p>如果感兴趣可以去<a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-%E9%AB%98%E9%98%B6%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C" rel="nofollow">Cmd Markdown 简明语法手册</a>这里学习更多。</p> 
+</blockquote> 
+<h3><a id="47_Html_397"></a>4.7 Html</h3> 
+<p>Markdown支持原生<code>HTML</code>语法，譬如，你可以用 Html 写一个纵跨两行的表格：<br> 代码：</p> 
+<pre><code class="prism language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">rowspan</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>值班人员<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>星期一<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>星期二<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>星期三<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>李强<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>张明<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>王平<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre> 
+<p>效果：</p> 
+<table><tbody><tr><th rowspan="2">值班人员</th><th>星期一</th><th>星期二</th><th>星期三</th></tr><tr><td>李强</td><td>张明</td><td>王平</td></tr></tbody></table> 也可以实现对字体格式的改变 
+<p>代码：</p> 
+<pre><code class="prism language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">face</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>楷体<span class="token punctuation">"</span></span> <span class="token attr-name">color</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>#00ffff</span> <span class="token attr-name">size</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>5</span><span class="token punctuation">&gt;</span></span>改变文字格式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">&gt;</span></span>
+</code></pre> 
+<p>效果：</p> 
+<blockquote> 
+ <p><font face="楷体" color="#00ffff" size="5"> 改变文字格式</font></p> 
+</blockquote> 
+<hr> 
+<h2><a id="Markdown_442"></a>五、Markdown工具</h2> 
+<ul><li>本地APP：首推 Typora，当然还有其他一些好用的软件，我用的是Typora；</li><li>国内博客平台：CSDN、简书、掘金、博客园、知乎等。<br> Typora下载链接：<a href="http://www.itmind.net/20343.html" rel="nofollow">Typora下载</a></li></ul> 
+<hr> 
+<h2><a id="_448"></a>六、总结</h2> 
+<p>为什么要写这篇博客，不仅是为了分享我的学习过程，也是为了给自己记个笔记，哪里忘记了，回来再看一眼，也可以很快的回想起来。所以快快把Markdown语法学起来吧，一起加油！！！</p> 
+<hr class="footnotes-sep"> 
+<section class="footnotes"> 
+ <ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>Markdown是一种纯文本标记语言 <a href="#fnref1" rel="nofollow" class="footnote-backref">↩︎</a></p> </li><li id="fn2" class="footnote-item"><p>HyperText Markup Language 超文本标记语言 <a href="#fnref2" rel="nofollow" class="footnote-backref">↩︎</a></p> </li></ol> 
+</section>
+                </div>
+                <link href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/markdown_views-ecfda744a4.css" rel="stylesheet">
+                <link href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/style-e504d6a974.css" rel="stylesheet">
+        </div>
+    </article>
+  <script>
+    $(function() {
+      setTimeout(function () {
+        var mathcodeList = document.querySelectorAll('.htmledit_views img.mathcode');
+        if (mathcodeList.length > 0) {
+          for (let i = 0; i < mathcodeList.length; i++) {
+            if (mathcodeList[i].complete) {
+              if (mathcodeList[i].naturalWidth === 0 || mathcodeList[i].naturalHeight === 0) {
+                var alt = mathcodeList[i].alt;
+                alt = '\\(' + alt + '\\)';
+                var curSpan = $('<span class="img-codecogs"></span>');
+                curSpan.text(alt);
+                $(mathcodeList[i]).before(curSpan);
+                $(mathcodeList[i]).remove();
+              }
+            } else {
+              mathcodeList[i].onerror = function() {
+                var alt = mathcodeList[i].alt;
+                alt = '\\(' + alt + '\\)';
+                var curSpan = $('<span class="img-codecogs"></span>');
+                curSpan.text(alt);
+                $(mathcodeList[i]).before(curSpan);
+                $(mathcodeList[i]).remove();
+              };
+            }
+          }
+          MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        }
+      }, 500)
+    });
+  </script>
+  <script src="https://g.csdnimg.cn/lib/jQuery.print/1.5.1/jQuery.print.min.js"></script>
+  <img src="http://apis.todo6.com/app/operate/csdn/proxy?url=https%3A%2F%2Fimg-home.csdnimg.cn%2Fimages%2F20211209110851.png" alt="pdf_watermark" width="0" height="0" style="display: none">
+  <div class="print_watermark"></div>
+  <div class="print_watermark_info">
+    <p>内容来源：csdn.net</p>
+    <p>作者昵称：小刘在路上</p>
+    <p>原文链接：https://blog.csdn.net/qq_40818172/article/details/126260661</p>
+    <p>作者主页：https://blog.csdn.net/qq_40818172</p>
+  </div>
+
+  <style>
+    .print_watermark, .print_watermark_info {
+      display: none
+    }
+    @media print {
+      body {
+        -webkit-print-color-adjust: exact; /* Chrome, Safari */
+        color-adjust: exact; /* Firefox */
+        background-image: none !important;
+      }
+      * {
+        -webkit-print-color-adjust: exact;
+      }
+      .blog-content-box {
+        padding: 0;
+      }
+      .blog-content-box .article-header .article-info-box > div:not(.article-bar-top){
+        display: none !important;
+      }
+      .blog-content-box .article-header .article-info-box  .article-bar-top img{
+          display:none
+      }
+      .blog-content-box .article-header .article-info-box > .article-bar-top .bar-content > *:not(.follow-nickName):not(.time){
+          display: none !important;
+      }
+      .print_watermark {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 999;
+        background-image: url('https://img-home.csdnimg.cn/images/20211209110851.png');
+        background-size: 180px auto;
+        background-repeat: repeat;
+      }
+      .print_watermark_info {
+        display: block;
+        position: fixed;
+        bottom: 16px;
+        right: 0;
+        z-index: 1000;
+        color: #e8e8ed;
+        font-size: 12px;
+        ocapity: .5
+      }
+      @page {
+        margin: 0 10mm 10mm;
+        size: landscape;
+      }
+      body, article {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #csdn-toolbar,.main_father > *:not(#mainBox), .csdn-side-toolbar, .main_father aside {
+        display: none !important;
+      }
+      .main_father > #mainBox {
+        width: unset
+      }
+      .main_father > #mainBox > main > *:not(.blog-content-box){
+        display: none !important;
+      }
+    }
+  </style>
+</body></html>
+              </div>
+              </div>
+          </div>
+      </body>
+      </html>
